@@ -1,0 +1,12 @@
+{
+    "name": "banana_macropad",
+    "vendorId": "0x4C47",
+    "productId": "0x0001",
+    "matrix": {
+        "rows": 1,
+        "cols": 8
+    },
+    "layouts": {
+        "keymap": [["0,0", "0,1", "0,2", "0,3", "0,4", "0,5", "0,6", "0,7"]]
+    }
+}
