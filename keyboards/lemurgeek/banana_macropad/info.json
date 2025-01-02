@@ -1,0 +1,38 @@
+{
+    "manufacturer": "Marcello Calvo",
+    "keyboard_name": "banana_macropad",
+    "maintainer": "lemurgeek",
+    "bootloader": "caterina",
+    "features": {
+        "bootmagic": true,
+        "command": false,
+        "console": false,
+        "extrakey": true,
+        "mousekey": true,
+        "nkro": true
+    },
+    "matrix_pins": {
+        "direct": [["B6", "B2", "B3", "B1", "F7", "F6", "F5", "F4"]]
+    },
+    "processor": "atmega32u4",
+    "url": "https://github.com/lemurgeek/qmk_firmware",
+    "usb": {
+        "device_version": "1.0.0",
+        "pid": "0x0001",
+        "vid": "0x4C47"
+    },
+    "layouts": {
+        "LAYOUT_8x1": {
+            "layout": [
+                { "x": 0, "y": 0, "matrix": [0, 0] },
+                { "x": 1, "y": 0, "matrix": [0, 1] },
+                { "x": 2, "y": 0, "matrix": [0, 2] },
+                { "x": 3, "y": 0, "matrix": [0, 3] },
+                { "x": 4, "y": 0, "matrix": [0, 4] },
+                { "x": 5, "y": 0, "matrix": [0, 5] },
+                { "x": 6, "y": 0, "matrix": [0, 6] },
+                { "x": 7, "y": 0, "matrix": [0, 7] }
+            ]
+        }
+    }
+}
